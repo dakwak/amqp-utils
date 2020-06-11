@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<clio>, ["~> 0.3.0"])
       s.add_dependency(%q<json>, ["~> 1.5"])
       s.add_dependency(%q<heredoc_unindent>, ["~> 1.1.2"])
-      s.add_dependency(%q<msgpack>, ["~> 0.4.5"])
+      s.add_dependency(%q<msgpack>, ["~> 1.3.3"])
     end
   else
     s.add_dependency(%q<amqp>, ["~> 0.7.1"])
@@ -78,7 +78,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<clio>, ["~> 0.3.0"])
     s.add_dependency(%q<json>, ["~> 1.5"])
     s.add_dependency(%q<heredoc_unindent>, ["~> 1.1.2"])
-    s.add_dependency(%q<msgpack>, ["~> 0.4.5"])
+    s.add_dependency(%q<msgpack>, ["~> 1.3.3"])
   end
 end
 
